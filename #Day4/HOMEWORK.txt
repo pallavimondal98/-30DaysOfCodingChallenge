@@ -1,0 +1,36 @@
+-------------Type Casting: 
+                Type casting, also known as type conversion, is the process of converting one data type into another. 
+                It's necessary when you want to perform operations on variables or values of different data types. 
+                For example, converting a string to an integer or vice versa.
+
+------------Closure: 
+                    A closure is a function that remembers the variables from its outer scope even if they are not present 
+                    in memory. In JavaScript, closures are often used to create private variables and encapsulate functionality.
+
+-----------var and const: 
+                These are variable declaration keywords in JavaScript. var is used to declare variables with function scope
+                 (or global if declared outside functions), while const is used to declare constants with block scope. 
+                 Variables declared with const cannot be reassigned after they are initialized.
+                
+------------Loops: 
+                Loops are control structures used to repeatedly execute a block of code until a specific condition is met. 
+                Here are some common types:
+
+                    for: A loop that runs for a specific number of iterations.
+
+                    foreach (in the context of arrays): A loop used to iterate over elements in an array.
+
+                    for...of: A loop used to iterate over iterable objects (like arrays or strings) to access their values.
+
+                    for...in: A loop used to iterate over the properties of an object.
+
+------------Scope (Lexical): 
+                Lexical scope, also known as static scope, is a scope determined by the placement of variables and blocks 
+                in the source code during the compilation phase. Variables declared within a block are accessible within 
+                that block and its nested blocks.
+
+------------Type Conversion:
+                Type conversion, also known as type coercion, is the process of converting values from one data type 
+                to another in a programming language. In JavaScript, this can happen implicitly (automatically) or 
+                explicitly (manually) using functions like parseInt(), parseFloat(), or by using operators like Number(), 
+                String(), etc.
