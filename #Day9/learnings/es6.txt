@@ -1,0 +1,104 @@
+1. Let and Const Declarations: 
+    ES6 introduced the 'let' and 'const' keywords for declaring variables. 'let' allows block-scoped variables, 
+    while 'const' is used for declaring constants that cannot be reassigned.
+
+                            let age = 20;
+                            age = 26; // Valid
+
+                            const name = "John";
+                            name = "glit"; // Invalid, will throw an error
+
+2. Arrow Functions: 
+    Arrow functions provide a more concise syntax for defining functions. They also have lexical scoping of 'this', 
+    making it easier to work with callbacks and closures.
+
+
+                            // ES6
+                            const add = (x, y) => x + y;
+
+3. Template Literals: 
+    Template literals allow you to embed expressions within string literals using backticks (`). This simplifies string 
+    interpolation and multiline strings.
+
+                            // ES6
+                            const name = "John";
+                            console.log(`Hello, ${name}!`);
+
+4. Destructuring: 
+    ES6 introduced destructuring, which allows you to extract values from objects and arrays into variables with a concise syntax.
+
+                            // Object destructuring
+                            const { firstName, lastName } = person;
+
+                            // Array destructuring
+                            const [first, second] = numbers;
+
+5. Default Parameters: 
+    You can now specify default values for function parameters, making it easier to handle missing or undefined arguments.
+
+                            function greet(name = "Guest") {
+                                console.log(`Hello, ${name}!`);
+                            }
+
+6.Spread and Rest Operators: 
+    The spread (...) and rest (...) operators allow you to manipulate arrays and function arguments more easily.
+
+                            // Spread operator for arrays
+                            const arr1 = [1, 2, 3];
+                            const arr2 = [...arr1, 4, 5];
+
+                            // Rest operator for function arguments
+                            function sum(...numbers) {
+                            return numbers.reduce((total, num) => total + num, 0);
+                            }
+
+7. Classes: 
+    ES6 introduced a more concise and structured way to create classes in JavaScript.
+
+                            class Person {
+                            constructor(name) {
+                                this.name = name;
+                            }
+                            sayHello() {
+                                console.log(`Hello, my name is ${this.name}`);
+                            }
+                            }
+
+8. Modules: 
+    ES6 introduced a standardized module system, allowing you to import and export functions, classes, and variables between files.
+
+                            // Exporting in a module
+                            export function myFunction() {
+                            // ...
+                            }
+
+                            // Importing in another module
+                            import { myFunction } from './myModule';
+
+9. Promises: 
+    Promises provide a cleaner way to work with asynchronous code, making it easier to handle success and error conditions.
+
+                            function fetchData() {
+                            return new Promise((resolve, reject) => {
+                                // Asynchronous operation
+                                if (dataIsAvailable) {
+                                resolve(data);
+                                } else {
+                                reject(error);
+                                }
+                            });
+                            }
+
+10. Map and Set Data Structures: 
+    ES6 introduced the Map and Set data structures for more efficient data manipulation.
+
+                            const myMap = new Map();
+                            myMap.set("key", "value");
+
+                            const mySet = new Set();
+                            mySet.add(1);
+                            mySet.add(2);
+
+
+
+
