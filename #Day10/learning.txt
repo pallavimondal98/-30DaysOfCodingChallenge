@@ -1,0 +1,61 @@
+1. Map, Filter, Reduce:
+    i. Map: 
+        The map function is used to create a new array by applying a given function to each element of an existing array. 
+        It doesn't modify the original array; instead, it returns a new one with the modified values.
+        Example:
+
+                            const numbers = [1, 2, 3, 4, 5];
+                            const doubled = numbers.map(num => num * 2);
+                            // doubled is now [2, 4, 6, 8, 10]
+    
+    ii. Filter: The filter function is used to create a new array containing elements from an existing array that satisfy a 
+        given condition.
+        Example:
+
+                            const numbers = [1, 2, 3, 4, 5];
+                            const evenNumbers = numbers.filter(num => num % 2 === 0);
+                            // evenNumbers is now [2, 4]
+
+   iii. Reduce: The reduce function is used to accumulate values in an array into a single result. 
+        It applies a function to each element of the array and accumulates the results.
+        Example:
+
+                            const numbers = [1, 2, 3, 4, 5];
+                            const sum = numbers.reduce((acc, num) => acc + num, 0);
+                            // sum is now 15
+    
+2. Destructuring:
+    Destructuring allows you to extract values from arrays and objects and assign them to variables in a more concise way.
+    Example:
+
+        const person = { name: "Alice", age: 30 };
+        const { name, age } = person;
+        // name is "Alice", age is 30
+
+3. The Ternary Operator:
+    The ternary operator (? :) is a concise way to write conditional statements. It takes a condition, and if the condition 
+    is true, it returns one value; otherwise, it returns another.
+    Example:
+
+                            const age = 25;
+                            const canVote = age >= 18 ? "Yes" : "No";
+                            // canVote is "Yes"
+
+4. The Spread Operator:
+    The spread operator (...) is used to spread elements of an array or object into another array or object. It's often used for copying or combining arrays/objects.
+    Example:
+
+                            const arr1 = [1, 2, 3];
+                            const arr2 = [...arr1, 4, 5];
+                            // arr2 is [1, 2, 3, 4, 5]
+
+                            const obj1 = { a: 1, b: 2 };
+                            const obj2 = { ...obj1, c: 3 };
+                            // obj2 is { a: 1, b: 2, c: 3 }
+
+
+
+
+
+        
+
